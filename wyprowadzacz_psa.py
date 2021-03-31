@@ -7,4 +7,7 @@ def wyprowadz_psa(imie_psa, wiek_psa, pogoda)
     print(f'{imie_psa}, do nogi!')
     return czas_spaceru
     
-wyprowadz_psa('Azor', 9)
+imie_psa = 'Azor'
+wiek_psa = 9
+pogoda = 'słonecznie'
+wyprowadz_psa(imie_psa, wiek_psa, pogoda)
