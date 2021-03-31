@@ -10,6 +10,13 @@ def wyprowadz_psa(imie_psa, wiek_psa, pogoda)
     print(f'{imie_psa}, do nogi!')
     return czas_spaceru
     
+def sprawdz_stan_zdrowia_psa(mokry_nos = True):
+    if mokry_nos:
+        stan_zdrowia = 'Perfekcyjny'
+    else:
+        stan_zdrowia = 'Podejrzany'
+    return stan_zdrowia
+    
 get_info_o_psie()
 imie_psa = 'Azor'
 wiek_psa = 9
